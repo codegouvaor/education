@@ -1,7 +1,7 @@
 {
-  "name": "rnea",
+  "name": "education",
   "version": "1.0.0",
-  "description": "National business registry and corporate services platform of the Republic of Astoria.",
+  "description": "The official digital platform of the Ministry of Education of Astoria.",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -68,7 +68,7 @@
   "packageManager": "pnpm@8.15.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codegouvaor/rnea.git"
+    "url": "https://github.com/codegouvaor/education.git"
   },
   "keywords": [
     "news",
@@ -80,14 +80,14 @@
   ],
   "author": {
     "name": "Astoria Government Development Team",
-    "email": "developer@rnea.gouv.aor",
-    "url": "https://rnea.gouv.aor"
+    "email": "developer@education.gouv.aor",
+    "url": "https://education.gouv.aor"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codegouvaor/rnea/issues"
+    "url": "https://github.com/codegouvaor/education/issues"
   },
-  "homepage": "https://github.com/codegouvaor/rnea#readme",
+  "homepage": "https://github.com/codegouvaor/education#readme",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix --quiet",
