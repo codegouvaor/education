@@ -1,0 +1,984 @@
+{
+  "brand": {
+    "republicName": "Republic of Astoria"
+  },
+  "meta": {
+    "defaultTitle": "Ministry of National Education",
+    "suffix": "education.gouv.aor",
+    "description": "The official portal of the Ministry of National Education of Astoria: schooling, guidance, teaching, institutions, exams and qualifications, aid and services.",
+    "searchPlaceholder": "Search"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "skipToFooter": "Skip to footer",
+    "backToTop": {
+      "ariaLabel": "Back to top"
+    },
+    "cookiePopup": {
+      "ariaLabel": "Cookie settings",
+      "title": "Our cookie policy",
+      "message": "We use cookies to measure the audience of this portal. You can accept or refuse them.",
+      "accept": "Accept",
+      "decline": "Decline",
+      "manage": "Manage my preferences"
+    }
+  },
+  "header": {
+    "homeTitle": "Home of the Ministry of National Education portal",
+    "serviceTitle": "Ministry of National Education",
+    "serviceTagline": "The official portal of the Ministry of National Education of Astoria",
+    "myGouv": "MyGouv",
+    "accountLabel": "My account",
+    "logoutLink": "Sign out",
+    "account": {
+      "profile": "My profile",
+      "settings": "My settings"
+    }
+  },
+  "footer": {
+    "contentDescription": "Ministry of National Education of Astoria",
+    "bottom": {
+      "contact": "Contact",
+      "planDuPortail": "Site map",
+      "documentsOpposables": "Enforceable documents",
+      "privacy": "Privacy",
+      "cookies": "Cookies",
+      "publications": "Official publications"
+    },
+    "license": "Unless otherwise stated, the content of this portal is available under an <link>open licence</link>.",
+    "columns": {
+      "scolarite": "Schooling",
+      "orientation": "Guidance",
+      "enseignement": "Teaching",
+      "etablissements": "Institutions",
+      "examensDiplomes": "Exams & qualifications",
+      "aidesServices": "Aid & services",
+      "ministere": "Ministry"
+    }
+  },
+  "stayInTouch": {
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Receive the latest news from the Ministry of National Education.",
+      "label": "Your email address",
+      "placeholder": "you@example.aor",
+      "submit": "Subscribe",
+      "success": "Thank you! Your subscription is confirmed.",
+      "hint": "You can unsubscribe at any time.",
+      "invalidEmail": "Please enter a valid email address."
+    },
+    "follow": {
+      "title": "Follow the ministry",
+      "items": {
+        "x": "Follow on X",
+        "facebook": "Follow on Facebook",
+        "linkedin": "Follow on LinkedIn",
+        "instagram": "Follow on Instagram",
+        "threads": "Follow on Threads"
+      }
+    }
+  },
+  "home": {
+    "metaTitle": "Ministry of National Education",
+    "hero": {
+      "kicker": "Republic of Astoria",
+      "title": "Ministry of National Education",
+      "lead": "The official education portal of Astoria."
+    },
+    "search": {
+      "title": "What are you looking for?",
+      "label": "Search the portal",
+      "placeholder": "Search for a programme, an institution, a procedure…",
+      "popularLabel": "Frequent searches",
+      "popular": {
+        "establishment": "Find an institution",
+        "formation": "Find a programme",
+        "procedure": "Complete a procedure",
+        "exam": "Check an exam"
+      }
+    },
+    "audience": {
+      "kicker": "You are",
+      "title": "You are…",
+      "lead": "Go straight to the information and services that concern you.",
+      "items": {
+        "eleve": {
+          "title": "Pupil",
+          "desc": "Schooling, guidance, exams and aid."
+        },
+        "parent": {
+          "title": "Parent",
+          "desc": "Enrolment, guidance, aid and school life."
+        },
+        "enseignant": {
+          "title": "Teacher",
+          "desc": "Career, recruitment, training and resources."
+        },
+        "etudiant": {
+          "title": "Student",
+          "desc": "Programmes, admission, aid and student life."
+        },
+        "etablissement": {
+          "title": "Institution",
+          "desc": "Services, resources and administrative information."
+        },
+        "professionnel": {
+          "title": "Professional",
+          "desc": "Data, regulation and ministry services."
+        }
+      }
+    },
+    "services": {
+      "kicker": "Actions",
+      "title": "Online services",
+      "lead": "The most consulted procedures and services.",
+      "allLink": "See all procedures",
+      "items": {
+        "inscription": {
+          "title": "School enrolment",
+          "desc": "Enrol a child in primary, middle or high school."
+        },
+        "formation": {
+          "title": "Find a programme",
+          "desc": "Browse the national catalogue of programmes."
+        },
+        "examen": {
+          "title": "Register for an exam",
+          "desc": "Calendars, registration and notices."
+        },
+        "aide": {
+          "title": "Request aid",
+          "desc": "Grants, financial aid and support."
+        }
+      }
+    },
+    "establishment": {
+      "kicker": "Directory",
+      "title": "Find an institution",
+      "lead": "Search for a primary school, middle school, high school or higher education institution.",
+      "submit": "Search for an institution",
+      "hint": "The national directory of institutions will be available soon.",
+      "types": {
+        "ecole": "Primary school",
+        "college": "Middle school",
+        "lycee": "High school",
+        "superieur": "Higher education"
+      },
+      "form": {
+        "legend": "Search for an institution",
+        "typeLabel": "Type of institution",
+        "typePlaceholder": "All types",
+        "locationLabel": "Location",
+        "locationPlaceholder": "City, municipality or postcode"
+      }
+    },
+    "formation": {
+      "kicker": "Catalogue",
+      "title": "Find a programme",
+      "lead": "Browse programmes by level, field and location.",
+      "submit": "Browse programmes",
+      "hint": "The national catalogue of programmes will be available soon.",
+      "levels": {
+        "college": "Middle school",
+        "lycee": "High school",
+        "superieur": "Higher education",
+        "professionnelle": "Vocational training"
+      },
+      "form": {
+        "legend": "Search for a programme",
+        "levelLabel": "Level",
+        "levelPlaceholder": "All levels",
+        "fieldLabel": "Field",
+        "fieldPlaceholder": "Field or title"
+      }
+    },
+    "orientation": {
+      "kicker": "Guidance",
+      "title": "Build your path",
+      "lead": "From guidance to support, build your educational and professional path.",
+      "items": {
+        "choisir": {
+          "title": "Choose your guidance",
+          "desc": "Understand the pathways and make your choices."
+        },
+        "metiers": {
+          "title": "Discover careers",
+          "desc": "Explore careers and professional sectors."
+        },
+        "formations": {
+          "title": "Find a programme",
+          "desc": "Access the catalogue of programmes."
+        },
+        "accompagnement": {
+          "title": "Get support",
+          "desc": "Advisers and guidance services."
+        }
+      }
+    },
+    "exams": {
+      "kicker": "Exams",
+      "title": "Exams & qualifications",
+      "lead": "Prepare, sit and consult your exams, qualifications and certifications.",
+      "cta": "All about exams and qualifications",
+      "items": {
+        "calendrier": {
+          "title": "Exam calendar",
+          "desc": "Dates and papers for each session."
+        },
+        "inscriptions": {
+          "title": "Registration",
+          "desc": "Register for exams and competitions."
+        },
+        "resultats": {
+          "title": "Results",
+          "desc": "Consult exam results."
+        },
+        "verifier": {
+          "title": "Verify a qualification",
+          "desc": "Check the authenticity of a qualification."
+        }
+      }
+    },
+    "news": {
+      "kicker": "News",
+      "title": "Ministry news",
+      "lead": "The news, press releases and events of the ministry.",
+      "allLink": "All news",
+      "empty": "News will be published soon."
+    },
+    "stats": {
+      "kicker": "Data",
+      "title": "Education in figures",
+      "lead": "The ministry's data and publications on the education system.",
+      "note": "Key figures will be published in the ministry's statistics section. No data is shown until the official source is available.",
+      "items": {
+        "etablissements": {
+          "label": "Institutions"
+        },
+        "eleves": {
+          "label": "Pupils"
+        },
+        "formations": {
+          "label": "Programmes"
+        },
+        "indicateurs": {
+          "label": "Education indicators"
+        }
+      },
+      "access": {
+        "statistiques": {
+          "title": "Statistics"
+        },
+        "openData": {
+          "title": "Open data"
+        },
+        "publications": {
+          "title": "Publications"
+        }
+      }
+    },
+    "ministry": {
+      "kicker": "Institution",
+      "title": "The ministry",
+      "lead": "The organisation, missions and public policies of the Ministry of National Education.",
+      "links": {
+        "leMinistere": {
+          "title": "The ministry"
+        },
+        "organisation": {
+          "title": "Organisation"
+        },
+        "politiques": {
+          "title": "Public policies"
+        },
+        "publications": {
+          "title": "Publications"
+        },
+        "budget": {
+          "title": "Budget"
+        },
+        "contacts": {
+          "title": "Contacts"
+        }
+      }
+    }
+  },
+  "nav": {
+    "primary": {
+      "scolarite": "Schooling",
+      "orientation": "Guidance",
+      "enseignement": "Teaching",
+      "etablissements": "Institutions",
+      "examensDiplomes": "Exams & qualifications",
+      "aidesServices": "Aid & services",
+      "ministere": "Ministry"
+    },
+    "panel": {
+      "scolarite": {
+        "title": "Schooling",
+        "text": "The journey of every pupil, from primary school to higher education: curricula, enrolment, school life and guidance.",
+        "allLink": "All about schooling",
+        "ecole": {
+          "title": "Primary school",
+          "programmes": "Curricula",
+          "inscriptions": "Enrolment",
+          "vieScolaire": "School life",
+          "orientation": "Guidance"
+        },
+        "college": {
+          "title": "Middle school",
+          "programmes": "Curricula",
+          "inscriptions": "Enrolment",
+          "vieScolaire": "School life",
+          "orientation": "Guidance"
+        },
+        "lycee": {
+          "title": "High school",
+          "programmes": "Curricula",
+          "inscriptions": "Enrolment",
+          "vieScolaire": "School life",
+          "orientation": "Guidance"
+        },
+        "enseignementSuperieur": {
+          "title": "Higher education",
+          "formations": "Programmes",
+          "admission": "Admission",
+          "vieEtudiante": "Student life",
+          "orientation": "Guidance"
+        }
+      },
+      "orientation": {
+        "title": "Guidance",
+        "text": "Choose a path, discover programmes and careers, and get supported throughout your guidance.",
+        "allLink": "All about guidance",
+        "choisirSonParcours": {
+          "title": "Choose your path",
+          "parcoursScolaires": "School pathways",
+          "orientation": "Guidance",
+          "reorientation": "Changing path",
+          "conseils": "Advice"
+        },
+        "formations": {
+          "title": "Programmes",
+          "catalogue": "Programme catalogue",
+          "professionnelle": "Vocational training",
+          "alternance": "Apprenticeships",
+          "continue": "Continuing education"
+        },
+        "metiers": {
+          "title": "Careers",
+          "decouvrir": "Discover careers",
+          "fiches": "Career fact sheets",
+          "secteurs": "Professional sectors",
+          "debouches": "Career prospects"
+        },
+        "accompagnement": {
+          "title": "Support",
+          "conseillers": "Advisers",
+          "services": "Guidance services",
+          "personnalise": "Personal support",
+          "ressources": "Resources"
+        }
+      },
+      "enseignement": {
+        "title": "Teaching",
+        "text": "Teachers and education staff: becoming a teacher, recruitment, training, careers and teaching resources.",
+        "allLink": "All about teaching",
+        "enseignants": {
+          "title": "Teachers",
+          "devenir": "Become a teacher",
+          "recrutement": "Recruitment",
+          "formation": "Training",
+          "concours": "Exams"
+        },
+        "personnels": {
+          "title": "Staff",
+          "administratifs": "Administrative staff",
+          "techniques": "Technical staff",
+          "vieProfessionnelle": "Professional life",
+          "services": "Services"
+        },
+        "carrieres": {
+          "title": "Careers",
+          "carriere": "Career",
+          "mobilite": "Mobility",
+          "concours": "Exams",
+          "formationContinue": "Continuing education"
+        },
+        "ressources": {
+          "title": "Resources",
+          "programmes": "Curricula",
+          "pedagogiques": "Teaching resources",
+          "referentiels": "Reference frameworks",
+          "outilsNumeriques": "Digital tools"
+        }
+      },
+      "etablissements": {
+        "title": "Institutions",
+        "text": "Find a school or higher education institution: directory, map, programmes and practical information.",
+        "allLink": "All institutions",
+        "ecoles": {
+          "title": "Primary schools",
+          "annuaire": "Directory",
+          "carte": "Map",
+          "formations": "Programmes",
+          "informationsPratiques": "Practical information"
+        },
+        "colleges": {
+          "title": "Middle schools",
+          "annuaire": "Directory",
+          "carte": "Map",
+          "formations": "Programmes",
+          "informationsPratiques": "Practical information"
+        },
+        "lycees": {
+          "title": "High schools",
+          "annuaire": "Directory",
+          "carte": "Map",
+          "formations": "Programmes",
+          "informationsPratiques": "Practical information"
+        },
+        "enseignementSuperieur": {
+          "title": "Higher education",
+          "annuaire": "Directory",
+          "carte": "Map",
+          "formations": "Programmes",
+          "informationsPratiques": "Practical information"
+        }
+      },
+      "examensDiplomes": {
+        "title": "Exams & qualifications",
+        "text": "Register for exams, consult calendars and results, obtain and verify your qualifications and certifications.",
+        "allLink": "All about exams and qualifications",
+        "examens": {
+          "title": "Exams",
+          "calendrier": "Calendar",
+          "inscriptions": "Registration",
+          "convocations": "Notices",
+          "informationsPratiques": "Practical information"
+        },
+        "diplomes": {
+          "title": "Qualifications",
+          "nationaux": "National qualifications",
+          "professionnels": "Vocational qualifications",
+          "equivalences": "Equivalences",
+          "demander": "Request a qualification"
+        },
+        "certifications": {
+          "title": "Certifications",
+          "certifications": "Certifications",
+          "competences": "Skills",
+          "validation": "Validation",
+          "reconnaissance": "Recognition"
+        },
+        "resultats": {
+          "title": "Results",
+          "examens": "Exam results",
+          "concours": "Competition results",
+          "verifierUnDiplome": "Verify a qualification",
+          "archives": "Archives"
+        }
+      },
+      "aidesServices": {
+        "title": "Aid & services",
+        "text": "Financial aid, services and everyday procedures for pupils, parents and students.",
+        "allLink": "All aid and services",
+        "eleves": {
+          "title": "Pupils",
+          "aides": "Aid",
+          "bourses": "Grants",
+          "vieScolaire": "School life",
+          "accompagnement": "Support"
+        },
+        "parents": {
+          "title": "Parents",
+          "inscription": "Enrolment",
+          "orientation": "Guidance",
+          "aides": "Aid",
+          "vieScolaire": "School life"
+        },
+        "etudiants": {
+          "title": "Students",
+          "aides": "Aid",
+          "bourses": "Grants",
+          "logement": "Housing",
+          "accompagnement": "Support"
+        },
+        "demarches": {
+          "title": "Procedures",
+          "toutes": "All procedures",
+          "documents": "Documents",
+          "formulaires": "Forms",
+          "servicesEnLigne": "Online services"
+        }
+      },
+      "ministere": {
+        "title": "Ministry",
+        "text": "The institution, its news, public policies, publications and organisation.",
+        "allLink": "All about the ministry",
+        "actualites": {
+          "title": "News",
+          "actualites": "News",
+          "communiques": "Press releases",
+          "agenda": "Agenda",
+          "discours": "Speeches"
+        },
+        "politiquesPubliques": {
+          "title": "Public policies",
+          "reformes": "Reforms",
+          "programmesNationaux": "National programmes",
+          "priorites": "Priorities",
+          "evaluation": "Evaluation"
+        },
+        "publications": {
+          "title": "Publications",
+          "rapports": "Reports",
+          "statistiques": "Statistics",
+          "donneesPubliques": "Open data",
+          "documentsOfficiels": "Official documents"
+        },
+        "institution": {
+          "title": "Institution",
+          "leMinistere": "The ministry",
+          "organisation": "Organisation",
+          "budget": "Budget",
+          "contacts": "Contacts"
+        }
+      }
+    }
+  },
+  "pages": {
+    "sitemap": {
+      "meta": {
+        "title": "Site map",
+        "description": "The site map of the Ministry of National Education portal."
+      },
+      "hero": {
+        "kicker": "Portal",
+        "title": "Site map",
+        "lead": "Find all the pages of the Ministry of National Education portal."
+      },
+      "sections": {
+        "portail": {
+          "kicker": "Navigation",
+          "title": "The portal",
+          "lead": "The seven entries of the portal's main navigation."
+        },
+        "transversal": {
+          "kicker": "Transverse",
+          "title": "Utility pages",
+          "lead": "Utility pages accessible from the footer.",
+          "links": {
+            "contact": "Contact",
+            "accessibility": "Accessibility",
+            "privacy": "Privacy",
+            "terms": "Terms of use",
+            "cookies": "Cookies",
+            "publications": "Official publications",
+            "documentsOpposables": "Enforceable documents"
+          }
+        }
+      }
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact",
+        "description": "Contact the Ministry of National Education."
+      },
+      "hero": {
+        "kicker": "Contact",
+        "title": "Contact the ministry",
+        "lead": "A question or a request? The Ministry of National Education will answer you."
+      },
+      "formSection": {
+        "kicker": "Form",
+        "title": "Write to the ministry",
+        "lead": "Fill in the form: it prepares a message for your email client."
+      },
+      "channels": {
+        "kicker": "Contact details",
+        "title": "Reach us",
+        "lead": "The official contact details of the ministry.",
+        "facts": {
+          "email": {
+            "label": "Email",
+            "value": "contact@education.gouv.aor"
+          },
+          "phone": {
+            "label": "Phone",
+            "value": "+1 234 567 890"
+          },
+          "address": {
+            "label": "Address",
+            "value": "1 place de l'Éducation, Astoria"
+          },
+          "hours": {
+            "label": "Opening hours",
+            "value": "Mon. – Fri. 9:00 – 17:00"
+          }
+        }
+      },
+      "recipients": {
+        "presidence": "Presidency",
+        "communications": "Communications",
+        "presse": "Press",
+        "monnaie": "Monnaie",
+        "etablissements": "Institutions"
+      },
+      "form": {
+        "recipientLabel": "Recipient",
+        "selectRecipient": "Choose a recipient",
+        "presidency": "Presidency",
+        "nameLabel": "Full name",
+        "namePlaceholder": "Your name",
+        "emailFieldLabel": "Email address",
+        "emailPlaceholder": "you@example.aor",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "The subject of your message",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Your message",
+        "sendButton": "Send",
+        "requiredField": "This field is required.",
+        "invalidEmail": "Please enter a valid email address."
+      }
+    },
+    "legal": {
+      "meta": {
+        "title": "Legal information",
+        "description": "The legal information of the Ministry of National Education portal."
+      },
+      "landing": {
+        "hero": {
+          "kicker": "Legal",
+          "title": "Legal information",
+          "lead": "The legal documents of the portal: accessibility, privacy, terms of use and cookies.",
+          "notice": "These documents apply to all content of the portal."
+        },
+        "related": {
+          "title": "Legal documents",
+          "kicker": "Quick access"
+        }
+      },
+      "related": {
+        "title": "Legal documents",
+        "kicker": "Quick access",
+        "accessibility": {
+          "label": "Accessibility statement",
+          "desc": "The compliance level of the portal and how to report an issue."
+        },
+        "privacy": {
+          "label": "Privacy",
+          "desc": "The data collected and your rights over your personal data."
+        },
+        "terms": {
+          "label": "Terms of use",
+          "desc": "The rules for using the portal."
+        },
+        "cookies": {
+          "label": "Cookie management",
+          "desc": "The cookies placed and how to manage them."
+        },
+        "sitemap": {
+          "label": "Site map",
+          "desc": "All the pages of the portal."
+        }
+      },
+      "accessibility": {
+        "hero": {
+          "kicker": "Accessibility",
+          "title": "Accessibility statement",
+          "lead": "The Ministry of National Education is committed to making its portal accessible to all.",
+          "notice": "This statement was issued in 2026."
+        },
+        "sections": {
+          "declaration": {
+            "kicker": "Commitment",
+            "title": "Our commitment",
+            "lead": "The ministry is committed to making its services accessible, in accordance with current guidelines.",
+            "paragraphs": {
+              "p1": "Accessibility is at the heart of our approach. We do our utmost to guarantee access to information and online services for everyone.",
+              "p2": "This statement describes the compliance level of the portal with the accessibility framework."
+            }
+          },
+          "conformite": {
+            "kicker": "Status",
+            "title": "Compliance status",
+            "lead": "The portal is partially compliant with the accessibility framework.",
+            "bullets": {
+              "b1": "Functional keyboard navigation",
+              "b2": "Contrasts meeting recommended thresholds",
+              "b3": "Text alternatives for images"
+            }
+          },
+          "nonAccessibles": {
+            "kicker": "Limitations",
+            "title": "Non-accessible content",
+            "lead": "Despite our efforts, some content still needs improvement.",
+            "bullets": {
+              "b1": "Some PDF documents",
+              "b2": "A few legacy forms",
+              "b3": "Some videos without subtitles"
+            }
+          },
+          "etablissement": {
+            "kicker": "Method",
+            "title": "Establishment of this statement",
+            "lead": "This statement was established using the following method.",
+            "facts": {
+              "tests": {
+                "label": "Tests",
+                "value": "Manual and automated audit"
+              },
+              "referentiel": {
+                "label": "Framework",
+                "value": "Astoria accessibility framework"
+              },
+              "outils": {
+                "label": "Tools",
+                "value": "Automated checks and user journeys"
+              }
+            }
+          },
+          "retour": {
+            "kicker": "Contact",
+            "title": "Feedback and contact",
+            "lead": "You can report an accessibility issue to us.",
+            "paragraphs": {
+              "p1": "Contact us at accessibilite@education.gouv.aor for any difficulty."
+            }
+          },
+          "voiesRecours": {
+            "kicker": "Recourse",
+            "title": "Recourse routes",
+            "lead": "If you feel your request was not addressed, several options are available.",
+            "bullets": {
+              "b1": "Write to the Ombudsman",
+              "b2": "Contact the territorial delegate",
+              "b3": "Apply to an administrative court"
+            }
+          }
+        }
+      },
+      "privacy": {
+        "hero": {
+          "kicker": "Privacy",
+          "title": "Personal data protection",
+          "lead": "The ministry processes your personal data in a transparent and secure manner.",
+          "notice": "You can exercise your rights at any time."
+        },
+        "sections": {
+          "responsable": {
+            "kicker": "Controller",
+            "title": "Data controller",
+            "lead": "The Ministry of National Education is the data controller.",
+            "paragraphs": {
+              "p1": "The data processing carried out on this portal complies with current regulations."
+            },
+            "facts": {
+              "responsable": {
+                "label": "Controller",
+                "value": "Ministry of National Education"
+              },
+              "adresse": {
+                "label": "Address",
+                "value": "1 place de l'Éducation, Astoria"
+              },
+              "dpo": {
+                "label": "Data Protection Officer",
+                "value": "dpo@education.gouv.aor"
+              }
+            }
+          },
+          "donnees": {
+            "kicker": "Data",
+            "title": "Data collected",
+            "lead": "The data collected is strictly necessary for your procedures.",
+            "bullets": {
+              "b1": "Identity and contact details",
+              "b2": "Connection data",
+              "b3": "Browsing data",
+              "b4": "Content you send us"
+            }
+          },
+          "finalites": {
+            "kicker": "Purposes",
+            "title": "Purposes and legal bases",
+            "lead": "Each processing serves a specific purpose.",
+            "paragraphs": {
+              "p1": "Data is processed to run the portal and answer your requests.",
+              "p2": "The legal basis rests on the performance of public interest tasks."
+            }
+          },
+          "conservation": {
+            "kicker": "Retention",
+            "title": "Retention period",
+            "lead": "Data is kept only for as long as necessary.",
+            "facts": {
+              "duree": {
+                "label": "Duration",
+                "value": "Time necessary for the purposes"
+              },
+              "critere": {
+                "label": "Criterion",
+                "value": "Based on legal obligations"
+              }
+            }
+          },
+          "droits": {
+            "kicker": "Your rights",
+            "title": "Your rights",
+            "lead": "You have rights over your personal data.",
+            "bullets": {
+              "b1": "Right of access",
+              "b2": "Right to rectification",
+              "b3": "Right to erasure",
+              "b4": "Right to restriction",
+              "b5": "Right to lodge a complaint"
+            }
+          },
+          "cookies": {
+            "kicker": "Cookies",
+            "title": "Cookies and audience measurement",
+            "lead": "The portal uses audience measurement cookies.",
+            "paragraphs": {
+              "p1": "You can configure cookies on the dedicated page."
+            },
+            "notice": "See our cookie policy for more details.",
+            "cta": "Manage cookies"
+          }
+        }
+      },
+      "terms": {
+        "hero": {
+          "kicker": "Legal",
+          "title": "Terms of use",
+          "lead": "The terms of use of the Ministry of National Education portal.",
+          "notice": "These terms apply to all users."
+        },
+        "sections": {
+          "objet": {
+            "kicker": "Purpose",
+            "title": "Purpose",
+            "lead": "This document defines the terms of use of the portal.",
+            "paragraphs": {
+              "p1": "The portal aims to inform users and give them access to the ministry's services.",
+              "p2": "By using the portal, you accept these terms."
+            }
+          },
+          "utilisation": {
+            "kicker": "Use",
+            "title": "Use of the portal",
+            "lead": "Services must be used responsibly.",
+            "bullets": {
+              "b1": "Do not misuse the services",
+              "b2": "Do not publish unlawful content",
+              "b3": "Do not disrupt operations",
+              "b4": "Respect other users"
+            }
+          },
+          "contenus": {
+            "kicker": "Content",
+            "title": "Content and data",
+            "lead": "Published content is protected.",
+            "paragraphs": {
+              "p1": "Unless otherwise stated, content is reusable under the open licence terms.",
+              "p2": "Reuse must respect the integrity of the information."
+            }
+          },
+          "responsabilite": {
+            "kicker": "Liability",
+            "title": "Liability",
+            "lead": "The ministry does its utmost to ensure the reliability of the information.",
+            "paragraphs": {
+              "p1": "Published information is provided for guidance only.",
+              "p2": "The ministry cannot be held liable for damage resulting from improper use."
+            }
+          },
+          "liens": {
+            "kicker": "Links",
+            "title": "Links",
+            "lead": "The portal may link to external resources.",
+            "paragraphs": {
+              "p1": "The ministry has no control over linked external content."
+            }
+          },
+          "modification": {
+            "kicker": "Changes",
+            "title": "Changes to the terms",
+            "lead": "These terms may evolve.",
+            "paragraphs": {
+              "p1": "Any change will be published on this page."
+            },
+            "notice": "The date of the latest update is indicated at the bottom of the page."
+          }
+        }
+      },
+      "cookies": {
+        "hero": {
+          "kicker": "Cookies",
+          "title": "Cookie management",
+          "lead": "The portal places audience measurement cookies.",
+          "notice": "You can change your choices at any time."
+        },
+        "sections": {
+          "definition": {
+            "kicker": "Definition",
+            "title": "What is a cookie?",
+            "lead": "A cookie is a small file stored on your device.",
+            "paragraphs": {
+              "p1": "Cookies help us measure audience and improve the service.",
+              "p2": "They do not allow you to be personally identified."
+            }
+          },
+          "cookiesDeposes": {
+            "kicker": "Cookies placed",
+            "title": "Cookies placed by the portal",
+            "lead": "The list of cookies used by the portal.",
+            "table": {
+              "caption": "Cookies placed by the portal",
+              "headers": {
+                "0": "Name",
+                "1": "Purpose",
+                "2": "Duration"
+              },
+              "rows": {
+                "0": {
+                  "0": "cookie-consent",
+                  "1": "Remember your choice",
+                  "2": "1 year"
+                },
+                "1": {
+                  "0": "matomo",
+                  "1": "Audience measurement",
+                  "2": "13 months"
+                },
+                "2": {
+                  "0": "session",
+                  "1": "Session maintenance",
+                  "2": "Session"
+                },
+                "3": {
+                  "0": "preferences",
+                  "1": "Display preferences",
+                  "2": "1 year"
+                }
+              },
+              "note": "Audience measurement is carried out without advertising trackers."
+            }
+          },
+          "gestion": {
+            "kicker": "Management",
+            "title": "Manage cookies",
+            "lead": "You can accept or refuse the placement of cookies.",
+            "bullets": {
+              "b1": "Configure your browser",
+              "b2": "Use the consent banner",
+              "b3": "Contact the ministry"
+            },
+            "notice": "Refusing audience measurement cookies does not affect your browsing."
+          }
+        }
+      }
+    }
+  }
+}

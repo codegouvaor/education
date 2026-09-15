@@ -1,0 +1,984 @@
+{
+  "brand": {
+    "republicName": "République d'Astoria"
+  },
+  "meta": {
+    "defaultTitle": "Ministère de l'Éducation nationale",
+    "suffix": "éducation.gouv.aor",
+    "description": "Le portail officiel du Ministère de l'Éducation nationale d'Astoria : scolarité, orientation, enseignements, établissements, examens et diplômes, aides et services.",
+    "searchPlaceholder": "Rechercher"
+  },
+  "common": {
+    "skipToContent": "Aller au contenu",
+    "skipToFooter": "Aller au pied de page",
+    "backToTop": {
+      "ariaLabel": "Haut de page"
+    },
+    "cookiePopup": {
+      "ariaLabel": "Gestion des cookies",
+      "title": "Notre politique de cookies",
+      "message": "Nous utilisons des cookies pour mesurer l'audience du portail. Vous pouvez accepter ou refuser leur dépôt.",
+      "accept": "Accepter",
+      "decline": "Refuser",
+      "manage": "Gérer mes préférences"
+    }
+  },
+  "header": {
+    "homeTitle": "Accueil du portail du Ministère de l'Éducation nationale",
+    "serviceTitle": "Ministère de l'Éducation nationale",
+    "serviceTagline": "Le portail officiel du Ministère de l'Éducation nationale d'Astoria",
+    "myGouv": "MonGouv",
+    "accountLabel": "Mon compte",
+    "logoutLink": "Se déconnecter",
+    "account": {
+      "profile": "Mon profil",
+      "settings": "Mes réglages"
+    }
+  },
+  "footer": {
+    "contentDescription": "Ministère de l'Éducation nationale d'Astoria",
+    "bottom": {
+      "contact": "Contact",
+      "planDuPortail": "Plan du portail",
+      "documentsOpposables": "Documents opposables",
+      "privacy": "Confidentialité",
+      "cookies": "Cookies",
+      "publications": "Publications officielles"
+    },
+    "license": "Sauf mention contraire, le contenu de ce portail est disponible sous <link>licence ouverte</link>.",
+    "columns": {
+      "scolarite": "Scolarité",
+      "orientation": "Orientation",
+      "enseignement": "Enseignement",
+      "etablissements": "Établissements",
+      "examensDiplomes": "Examens & diplômes",
+      "aidesServices": "Aides & services",
+      "ministere": "Ministère"
+    }
+  },
+  "stayInTouch": {
+    "newsletter": {
+      "title": "Lettre d'information",
+      "desc": "Recevez les actualités du Ministère de l'Éducation nationale.",
+      "label": "Votre adresse électronique",
+      "placeholder": "votre@exemple.aor",
+      "submit": "S'abonner",
+      "success": "Merci ! Votre abonnement est confirmé.",
+      "hint": "Vous pourrez vous désabonner à tout moment.",
+      "invalidEmail": "Veuillez saisir une adresse électronique valide."
+    },
+    "follow": {
+      "title": "Suivez le ministère",
+      "items": {
+        "x": "Suivre sur X",
+        "facebook": "Suivre sur Facebook",
+        "linkedin": "Suivre sur LinkedIn",
+        "instagram": "Suivre sur Instagram",
+        "threads": "Suivre sur Threads"
+      }
+    }
+  },
+  "home": {
+    "metaTitle": "Ministère de l'Éducation nationale",
+    "hero": {
+      "kicker": "République d'Astoria",
+      "title": "Ministère de l'Éducation nationale",
+      "lead": "Le portail officiel de l'éducation en Astoria."
+    },
+    "search": {
+      "title": "Que recherchez-vous ?",
+      "label": "Rechercher sur le portail",
+      "placeholder": "Rechercher une formation, un établissement, une démarche…",
+      "popularLabel": "Recherches fréquentes",
+      "popular": {
+        "establishment": "Trouver un établissement",
+        "formation": "Trouver une formation",
+        "procedure": "Faire une démarche",
+        "exam": "Consulter un examen"
+      }
+    },
+    "audience": {
+      "kicker": "Vous êtes",
+      "title": "Vous êtes…",
+      "lead": "Accédez directement aux informations et aux services qui vous concernent.",
+      "items": {
+        "eleve": {
+          "title": "Élève",
+          "desc": "Scolarité, orientation, examens et aides."
+        },
+        "parent": {
+          "title": "Parent",
+          "desc": "Inscription, orientation, aides et vie scolaire."
+        },
+        "enseignant": {
+          "title": "Enseignant",
+          "desc": "Carrière, recrutement, formation et ressources."
+        },
+        "etudiant": {
+          "title": "Étudiant",
+          "desc": "Formations, admission, aides et vie étudiante."
+        },
+        "etablissement": {
+          "title": "Établissement",
+          "desc": "Services, ressources et informations administratives."
+        },
+        "professionnel": {
+          "title": "Professionnel",
+          "desc": "Données, réglementation et services du ministère."
+        }
+      }
+    },
+    "services": {
+      "kicker": "Actions",
+      "title": "Services en ligne",
+      "lead": "Les démarches et services les plus consultés.",
+      "allLink": "Voir toutes les démarches",
+      "items": {
+        "inscription": {
+          "title": "Inscription scolaire",
+          "desc": "Inscrire un enfant à l'école, au collège ou au lycée."
+        },
+        "formation": {
+          "title": "Trouver une formation",
+          "desc": "Explorer le catalogue national des formations."
+        },
+        "examen": {
+          "title": "S'inscrire à un examen",
+          "desc": "Calendriers, inscriptions et convocations."
+        },
+        "aide": {
+          "title": "Demander une aide",
+          "desc": "Bourses, aides financières et accompagnement."
+        }
+      }
+    },
+    "establishment": {
+      "kicker": "Annuaire",
+      "title": "Trouver un établissement",
+      "lead": "Recherchez une école, un collège, un lycée ou un établissement d'enseignement supérieur.",
+      "submit": "Rechercher un établissement",
+      "hint": "L'annuaire national des établissements sera prochainement disponible.",
+      "types": {
+        "ecole": "École",
+        "college": "Collège",
+        "lycee": "Lycée",
+        "superieur": "Enseignement supérieur"
+      },
+      "form": {
+        "legend": "Rechercher un établissement",
+        "typeLabel": "Type d'établissement",
+        "typePlaceholder": "Tous les types",
+        "locationLabel": "Lieu",
+        "locationPlaceholder": "Ville, commune ou code postal"
+      }
+    },
+    "formation": {
+      "kicker": "Catalogue",
+      "title": "Trouver une formation",
+      "lead": "Explorez les formations par niveau, domaine et lieu.",
+      "submit": "Consulter les formations",
+      "hint": "Le catalogue national des formations sera prochainement disponible.",
+      "levels": {
+        "college": "Collège",
+        "lycee": "Lycée",
+        "superieur": "Enseignement supérieur",
+        "professionnelle": "Formation professionnelle"
+      },
+      "form": {
+        "legend": "Rechercher une formation",
+        "levelLabel": "Niveau",
+        "levelPlaceholder": "Tous les niveaux",
+        "fieldLabel": "Domaine",
+        "fieldPlaceholder": "Domaine ou intitulé"
+      }
+    },
+    "orientation": {
+      "kicker": "Orientation",
+      "title": "Construire son parcours",
+      "lead": "De l'orientation à l'accompagnement, construisez votre parcours éducatif et professionnel.",
+      "items": {
+        "choisir": {
+          "title": "Choisir son orientation",
+          "desc": "Comprendre les parcours et faire ses choix."
+        },
+        "metiers": {
+          "title": "Découvrir les métiers",
+          "desc": "Explorer les métiers et les secteurs professionnels."
+        },
+        "formations": {
+          "title": "Trouver une formation",
+          "desc": "Accéder au catalogue des formations."
+        },
+        "accompagnement": {
+          "title": "Être accompagné",
+          "desc": "Conseillers et services d'orientation."
+        }
+      }
+    },
+    "exams": {
+      "kicker": "Examens",
+      "title": "Examens & diplômes",
+      "lead": "Préparez, passez et consultez vos examens, diplômes et certifications.",
+      "cta": "Tout sur les examens et diplômes",
+      "items": {
+        "calendrier": {
+          "title": "Calendrier des examens",
+          "desc": "Dates et épreuves des sessions."
+        },
+        "inscriptions": {
+          "title": "Inscriptions",
+          "desc": "S'inscrire aux examens et concours."
+        },
+        "resultats": {
+          "title": "Résultats",
+          "desc": "Consulter les résultats des examens."
+        },
+        "verifier": {
+          "title": "Vérifier un diplôme",
+          "desc": "Contrôler l'authenticité d'un diplôme."
+        }
+      }
+    },
+    "news": {
+      "kicker": "Actualités",
+      "title": "Actualités du ministère",
+      "lead": "Les actualités, communiqués et événements du ministère.",
+      "allLink": "Toutes les actualités",
+      "empty": "Les actualités seront publiées prochainement."
+    },
+    "stats": {
+      "kicker": "Données",
+      "title": "L'éducation en chiffres",
+      "lead": "Les données et publications du ministère sur le système éducatif.",
+      "note": "Les chiffres clés seront publiés dans l'espace statistiques du ministère. Aucune donnée n'est affichée tant que la source officielle n'est pas disponible.",
+      "items": {
+        "etablissements": {
+          "label": "Établissements"
+        },
+        "eleves": {
+          "label": "Élèves"
+        },
+        "formations": {
+          "label": "Formations"
+        },
+        "indicateurs": {
+          "label": "Indicateurs éducatifs"
+        }
+      },
+      "access": {
+        "statistiques": {
+          "title": "Statistiques"
+        },
+        "openData": {
+          "title": "Données publiques"
+        },
+        "publications": {
+          "title": "Publications"
+        }
+      }
+    },
+    "ministry": {
+      "kicker": "Institution",
+      "title": "Le ministère",
+      "lead": "L'organisation, les missions et les politiques publiques du Ministère de l'Éducation nationale.",
+      "links": {
+        "leMinistere": {
+          "title": "Le ministère"
+        },
+        "organisation": {
+          "title": "Organisation"
+        },
+        "politiques": {
+          "title": "Politiques publiques"
+        },
+        "publications": {
+          "title": "Publications"
+        },
+        "budget": {
+          "title": "Budget"
+        },
+        "contacts": {
+          "title": "Contacts"
+        }
+      }
+    }
+  },
+  "nav": {
+    "primary": {
+      "scolarite": "Scolarité",
+      "orientation": "Orientation",
+      "enseignement": "Enseignement",
+      "etablissements": "Établissements",
+      "examensDiplomes": "Examens & diplômes",
+      "aidesServices": "Aides & services",
+      "ministere": "Ministère"
+    },
+    "panel": {
+      "scolarite": {
+        "title": "Scolarité",
+        "text": "Le parcours de chaque élève, de l'école à l'enseignement supérieur : programmes, inscriptions, vie scolaire et orientation.",
+        "allLink": "Tout sur la scolarité",
+        "ecole": {
+          "title": "École",
+          "programmes": "Programmes",
+          "inscriptions": "Inscriptions",
+          "vieScolaire": "Vie scolaire",
+          "orientation": "Orientation"
+        },
+        "college": {
+          "title": "Collège",
+          "programmes": "Programmes",
+          "inscriptions": "Inscriptions",
+          "vieScolaire": "Vie scolaire",
+          "orientation": "Orientation"
+        },
+        "lycee": {
+          "title": "Lycée",
+          "programmes": "Programmes",
+          "inscriptions": "Inscriptions",
+          "vieScolaire": "Vie scolaire",
+          "orientation": "Orientation"
+        },
+        "enseignementSuperieur": {
+          "title": "Enseignement supérieur",
+          "formations": "Formations",
+          "admission": "Admission",
+          "vieEtudiante": "Vie étudiante",
+          "orientation": "Orientation"
+        }
+      },
+      "orientation": {
+        "title": "Orientation",
+        "text": "Choisir son parcours, découvrir les formations et les métiers, et être accompagné tout au long de son orientation.",
+        "allLink": "Tout sur l'orientation",
+        "choisirSonParcours": {
+          "title": "Choisir son parcours",
+          "parcoursScolaires": "Parcours scolaires",
+          "orientation": "Orientation",
+          "reorientation": "Réorientation",
+          "conseils": "Conseils"
+        },
+        "formations": {
+          "title": "Formations",
+          "catalogue": "Catalogue des formations",
+          "professionnelle": "Formation professionnelle",
+          "alternance": "Alternance",
+          "continue": "Formation continue"
+        },
+        "metiers": {
+          "title": "Métiers",
+          "decouvrir": "Découvrir les métiers",
+          "fiches": "Fiches métiers",
+          "secteurs": "Secteurs professionnels",
+          "debouches": "Débouchés"
+        },
+        "accompagnement": {
+          "title": "Accompagnement",
+          "conseillers": "Conseillers",
+          "services": "Services d'orientation",
+          "personnalise": "Accompagnement personnalisé",
+          "ressources": "Ressources"
+        }
+      },
+      "enseignement": {
+        "title": "Enseignement",
+        "text": "Les enseignants et les personnels de l'éducation : devenir enseignant, recrutement, formation, carrières et ressources pédagogiques.",
+        "allLink": "Tout sur l'enseignement",
+        "enseignants": {
+          "title": "Enseignants",
+          "devenir": "Devenir enseignant",
+          "recrutement": "Recrutement",
+          "formation": "Formation",
+          "concours": "Concours"
+        },
+        "personnels": {
+          "title": "Personnels",
+          "administratifs": "Personnels administratifs",
+          "techniques": "Personnels techniques",
+          "vieProfessionnelle": "Vie professionnelle",
+          "services": "Services"
+        },
+        "carrieres": {
+          "title": "Carrières",
+          "carriere": "Carrière",
+          "mobilite": "Mobilité",
+          "concours": "Concours",
+          "formationContinue": "Formation continue"
+        },
+        "ressources": {
+          "title": "Ressources",
+          "programmes": "Programmes",
+          "pedagogiques": "Ressources pédagogiques",
+          "referentiels": "Référentiels",
+          "outilsNumeriques": "Outils numériques"
+        }
+      },
+      "etablissements": {
+        "title": "Établissements",
+        "text": "Trouver un établissement scolaire ou d'enseignement supérieur : annuaire, carte, formations et informations pratiques.",
+        "allLink": "Tous les établissements",
+        "ecoles": {
+          "title": "Écoles",
+          "annuaire": "Annuaire",
+          "carte": "Carte",
+          "formations": "Formations",
+          "informationsPratiques": "Informations pratiques"
+        },
+        "colleges": {
+          "title": "Collèges",
+          "annuaire": "Annuaire",
+          "carte": "Carte",
+          "formations": "Formations",
+          "informationsPratiques": "Informations pratiques"
+        },
+        "lycees": {
+          "title": "Lycées",
+          "annuaire": "Annuaire",
+          "carte": "Carte",
+          "formations": "Formations",
+          "informationsPratiques": "Informations pratiques"
+        },
+        "enseignementSuperieur": {
+          "title": "Enseignement supérieur",
+          "annuaire": "Annuaire",
+          "carte": "Carte",
+          "formations": "Formations",
+          "informationsPratiques": "Informations pratiques"
+        }
+      },
+      "examensDiplomes": {
+        "title": "Examens & diplômes",
+        "text": "S'inscrire aux examens, consulter les calendriers et les résultats, obtenir et vérifier ses diplômes et certifications.",
+        "allLink": "Tout sur les examens et diplômes",
+        "examens": {
+          "title": "Examens",
+          "calendrier": "Calendrier",
+          "inscriptions": "Inscriptions",
+          "convocations": "Convocations",
+          "informationsPratiques": "Informations pratiques"
+        },
+        "diplomes": {
+          "title": "Diplômes",
+          "nationaux": "Diplômes nationaux",
+          "professionnels": "Diplômes professionnels",
+          "equivalences": "Équivalences",
+          "demander": "Demander un diplôme"
+        },
+        "certifications": {
+          "title": "Certifications",
+          "certifications": "Certifications",
+          "competences": "Compétences",
+          "validation": "Validation",
+          "reconnaissance": "Reconnaissance"
+        },
+        "resultats": {
+          "title": "Résultats",
+          "examens": "Résultats des examens",
+          "concours": "Résultats des concours",
+          "verifierUnDiplome": "Vérifier un diplôme",
+          "archives": "Archives"
+        }
+      },
+      "aidesServices": {
+        "title": "Aides & services",
+        "text": "Les aides financières, les services et les démarches du quotidien pour les élèves, les parents et les étudiants.",
+        "allLink": "Toutes les aides et services",
+        "eleves": {
+          "title": "Élèves",
+          "aides": "Aides",
+          "bourses": "Bourses",
+          "vieScolaire": "Vie scolaire",
+          "accompagnement": "Accompagnement"
+        },
+        "parents": {
+          "title": "Parents",
+          "inscription": "Inscription",
+          "orientation": "Orientation",
+          "aides": "Aides",
+          "vieScolaire": "Vie scolaire"
+        },
+        "etudiants": {
+          "title": "Étudiants",
+          "aides": "Aides",
+          "bourses": "Bourses",
+          "logement": "Logement",
+          "accompagnement": "Accompagnement"
+        },
+        "demarches": {
+          "title": "Démarches",
+          "toutes": "Toutes les démarches",
+          "documents": "Documents",
+          "formulaires": "Formulaires",
+          "servicesEnLigne": "Services en ligne"
+        }
+      },
+      "ministere": {
+        "title": "Ministère",
+        "text": "L'institution, ses actualités, ses politiques publiques, ses publications et son organisation.",
+        "allLink": "Tout sur le ministère",
+        "actualites": {
+          "title": "Actualités",
+          "actualites": "Actualités",
+          "communiques": "Communiqués",
+          "agenda": "Agenda",
+          "discours": "Discours"
+        },
+        "politiquesPubliques": {
+          "title": "Politiques publiques",
+          "reformes": "Réformes",
+          "programmesNationaux": "Programmes nationaux",
+          "priorites": "Priorités",
+          "evaluation": "Évaluation"
+        },
+        "publications": {
+          "title": "Publications",
+          "rapports": "Rapports",
+          "statistiques": "Statistiques",
+          "donneesPubliques": "Données publiques",
+          "documentsOfficiels": "Documents officiels"
+        },
+        "institution": {
+          "title": "Institution",
+          "leMinistere": "Le ministère",
+          "organisation": "Organisation",
+          "budget": "Budget",
+          "contacts": "Contacts"
+        }
+      }
+    }
+  },
+  "pages": {
+    "sitemap": {
+      "meta": {
+        "title": "Plan du portail",
+        "description": "Le plan du portail du Ministère de l'Éducation nationale."
+      },
+      "hero": {
+        "kicker": "Portail",
+        "title": "Plan du portail",
+        "lead": "Retrouvez l'ensemble des pages du portail du Ministère de l'Éducation nationale."
+      },
+      "sections": {
+        "portail": {
+          "kicker": "Navigation",
+          "title": "Le portail",
+          "lead": "Les sept entrées de la navigation principale du portail."
+        },
+        "transversal": {
+          "kicker": "Transverse",
+          "title": "Pages transverses",
+          "lead": "Les pages utilitaires accessibles depuis le pied de page.",
+          "links": {
+            "contact": "Contact",
+            "accessibility": "Accessibilité",
+            "privacy": "Confidentialité",
+            "terms": "Conditions d'utilisation",
+            "cookies": "Cookies",
+            "publications": "Publications officielles",
+            "documentsOpposables": "Documents opposables"
+          }
+        }
+      }
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact",
+        "description": "Contactez le Ministère de l'Éducation nationale."
+      },
+      "hero": {
+        "kicker": "Contact",
+        "title": "Contacter le ministère",
+        "lead": "Une question, une demande ? Le Ministère de l'Éducation nationale vous répond."
+      },
+      "formSection": {
+        "kicker": "Formulaire",
+        "title": "Écrire au ministère",
+        "lead": "Renseignez le formulaire : il prépare un message pour votre messagerie."
+      },
+      "channels": {
+        "kicker": "Coordonnées",
+        "title": "Nous joindre",
+        "lead": "Les coordonnées officielles du ministère.",
+        "facts": {
+          "email": {
+            "label": "Adresse électronique",
+            "value": "contact@education.gouv.aor"
+          },
+          "phone": {
+            "label": "Téléphone",
+            "value": "+1 234 567 890"
+          },
+          "address": {
+            "label": "Adresse",
+            "value": "1 place de l'Éducation, Astoria"
+          },
+          "hours": {
+            "label": "Horaires",
+            "value": "Lun. – ven. 9h00 – 17h00"
+          }
+        }
+      },
+      "recipients": {
+        "presidence": "Présidence",
+        "communications": "Communication",
+        "presse": "Presse",
+        "monnaie": "Monnaie",
+        "etablissements": "Établissements"
+      },
+      "form": {
+        "recipientLabel": "Destinataire",
+        "selectRecipient": "Choisir un destinataire",
+        "presidency": "Présidence",
+        "nameLabel": "Nom complet",
+        "namePlaceholder": "Votre nom",
+        "emailFieldLabel": "Adresse électronique",
+        "emailPlaceholder": "votre@exemple.aor",
+        "subjectLabel": "Objet",
+        "subjectPlaceholder": "L'objet de votre message",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Votre message",
+        "sendButton": "Envoyer",
+        "requiredField": "Ce champ est obligatoire.",
+        "invalidEmail": "Veuillez saisir une adresse électronique valide."
+      }
+    },
+    "legal": {
+      "meta": {
+        "title": "Informations légales",
+        "description": "Les informations légales du portail du Ministère de l'Éducation nationale."
+      },
+      "landing": {
+        "hero": {
+          "kicker": "Légal",
+          "title": "Informations légales",
+          "lead": "Les documents légaux du portail : accessibilité, confidentialité, conditions d'utilisation et cookies.",
+          "notice": "Ces documents s'appliquent à l'ensemble des contenus du portail."
+        },
+        "related": {
+          "title": "Documents légaux",
+          "kicker": "Accès rapide"
+        }
+      },
+      "related": {
+        "title": "Documents légaux",
+        "kicker": "Accès rapide",
+        "accessibility": {
+          "label": "Déclaration d'accessibilité",
+          "desc": "Le niveau de conformité du portail et les moyens de signaler un problème."
+        },
+        "privacy": {
+          "label": "Confidentialité",
+          "desc": "Les données collectées et vos droits sur vos données personnelles."
+        },
+        "terms": {
+          "label": "Conditions d'utilisation",
+          "desc": "Les règles d'utilisation du portail."
+        },
+        "cookies": {
+          "label": "Gestion des cookies",
+          "desc": "Les cookies déposés et comment les paramétrer."
+        },
+        "sitemap": {
+          "label": "Plan du portail",
+          "desc": "L'ensemble des pages du portail."
+        }
+      },
+      "accessibility": {
+        "hero": {
+          "kicker": "Accessibilité",
+          "title": "Déclaration d'accessibilité",
+          "lead": "Le Ministère de l'Éducation nationale s'engage à rendre son portail accessible à tous.",
+          "notice": "Cette déclaration a été établie en 2026."
+        },
+        "sections": {
+          "declaration": {
+            "kicker": "Engagement",
+            "title": "Notre engagement",
+            "lead": "Le ministère s'engage à rendre ses services accessibles, conformément aux recommandations en vigueur.",
+            "paragraphs": {
+              "p1": "L'accessibilité est au cœur de notre démarche. Nous mettons tout en œuvre pour garantir à chacun l'accès à l'information et aux services en ligne.",
+              "p2": "Cette déclaration décrit l'état de conformité du portail avec le référentiel d'accessibilité."
+            }
+          },
+          "conformite": {
+            "kicker": "État",
+            "title": "État de conformité",
+            "lead": "Le portail est partiellement conforme au référentiel d'accessibilité.",
+            "bullets": {
+              "b1": "Navigation au clavier fonctionnelle",
+              "b2": "Contrastes respectant les seuils recommandés",
+              "b3": "Alternatives textuelles pour les images"
+            }
+          },
+          "nonAccessibles": {
+            "kicker": "Limites",
+            "title": "Contenus non accessibles",
+            "lead": "Malgré nos efforts, certains contenus restent à améliorer.",
+            "bullets": {
+              "b1": "Certains documents PDF",
+              "b2": "Quelques formulaires anciens",
+              "b3": "Des vidéos sans sous-titres"
+            }
+          },
+          "etablissement": {
+            "kicker": "Méthode",
+            "title": "Établissement de cette déclaration",
+            "lead": "Cette déclaration a été établie selon la méthode suivante.",
+            "facts": {
+              "tests": {
+                "label": "Tests",
+                "value": "Audit manuel et automatique"
+              },
+              "referentiel": {
+                "label": "Référentiel",
+                "value": "Référentiel d'accessibilité Astoria"
+              },
+              "outils": {
+                "label": "Outils",
+                "value": "Vérification automatique et parcours utilisateurs"
+              }
+            }
+          },
+          "retour": {
+            "kicker": "Contact",
+            "title": "Retour d'information et contact",
+            "lead": "Vous pouvez nous signaler un problème d'accessibilité.",
+            "paragraphs": {
+              "p1": "Contactez-nous à accessibilite@education.gouv.aor pour toute difficulté."
+            }
+          },
+          "voiesRecours": {
+            "kicker": "Recours",
+            "title": "Voies de recours",
+            "lead": "Si vous estimez que votre demande n'a pas abouti, plusieurs recours sont possibles.",
+            "bullets": {
+              "b1": "Écrire au Défenseur des droits",
+              "b2": "Saisir le délégué territorial",
+              "b3": "Saisir une juridiction administrative"
+            }
+          }
+        }
+      },
+      "privacy": {
+        "hero": {
+          "kicker": "Confidentialité",
+          "title": "Protection des données personnelles",
+          "lead": "Le ministère traite vos données personnelles de manière transparente et sécurisée.",
+          "notice": "Vous pouvez exercer vos droits à tout moment."
+        },
+        "sections": {
+          "responsable": {
+            "kicker": "Responsable",
+            "title": "Responsable de traitement",
+            "lead": "Le Ministère de l'Éducation nationale est responsable du traitement de vos données.",
+            "paragraphs": {
+              "p1": "Les traitements de données réalisés sur ce portail sont conformes à la réglementation en vigueur."
+            },
+            "facts": {
+              "responsable": {
+                "label": "Responsable",
+                "value": "Ministère de l'Éducation nationale"
+              },
+              "adresse": {
+                "label": "Adresse",
+                "value": "1 place de l'Éducation, Astoria"
+              },
+              "dpo": {
+                "label": "Délégué à la protection des données",
+                "value": "dpo@education.gouv.aor"
+              }
+            }
+          },
+          "donnees": {
+            "kicker": "Données",
+            "title": "Données collectées",
+            "lead": "Les données collectées sont strictement nécessaires à vos démarches.",
+            "bullets": {
+              "b1": "Identité et coordonnées",
+              "b2": "Données de connexion",
+              "b3": "Données de navigation",
+              "b4": "Contenus que vous nous adressez"
+            }
+          },
+          "finalites": {
+            "kicker": "Finalités",
+            "title": "Finalités et bases légales",
+            "lead": "Chaque traitement répond à une finalité précise.",
+            "paragraphs": {
+              "p1": "Les données sont traitées pour assurer le fonctionnement du portail et répondre à vos demandes.",
+              "p2": "La base légale repose sur l'exécution de missions d'intérêt public."
+            }
+          },
+          "conservation": {
+            "kicker": "Conservation",
+            "title": "Durée de conservation",
+            "lead": "Les données ne sont conservées que le temps nécessaire.",
+            "facts": {
+              "duree": {
+                "label": "Durée",
+                "value": "Durée nécessaire aux finalités"
+              },
+              "critere": {
+                "label": "Critère",
+                "value": "Fondé sur les obligations légales"
+              }
+            }
+          },
+          "droits": {
+            "kicker": "Vos droits",
+            "title": "Vos droits",
+            "lead": "Vous disposez de droits sur vos données personnelles.",
+            "bullets": {
+              "b1": "Droit d'accès",
+              "b2": "Droit de rectification",
+              "b3": "Droit d'effacement",
+              "b4": "Droit à la limitation",
+              "b5": "Droit de porter réclamation"
+            }
+          },
+          "cookies": {
+            "kicker": "Cookies",
+            "title": "Cookies et mesure d'audience",
+            "lead": "Le portail utilise des cookies de mesure d'audience.",
+            "paragraphs": {
+              "p1": "Vous pouvez paramétrer les cookies dans la page dédiée."
+            },
+            "notice": "Consultez notre politique de cookies pour plus de détails.",
+            "cta": "Gérer les cookies"
+          }
+        }
+      },
+      "terms": {
+        "hero": {
+          "kicker": "Légal",
+          "title": "Conditions d'utilisation",
+          "lead": "Les conditions d'utilisation du portail du Ministère de l'Éducation nationale.",
+          "notice": "Ces conditions s'appliquent à tous les utilisateurs."
+        },
+        "sections": {
+          "objet": {
+            "kicker": "Objet",
+            "title": "Objet",
+            "lead": "Le présent document définit les conditions d'utilisation du portail.",
+            "paragraphs": {
+              "p1": "Le portail a vocation à informer les usagers et à leur donner accès aux services du ministère.",
+              "p2": "En utilisant le portail, vous acceptez les présentes conditions."
+            }
+          },
+          "utilisation": {
+            "kicker": "Usage",
+            "title": "Utilisation du portail",
+            "lead": "Les services doivent être utilisés de manière responsable.",
+            "bullets": {
+              "b1": "Ne pas détourner les services",
+              "b2": "Ne pas diffuser de contenus illicites",
+              "b3": "Ne pas entraver le fonctionnement",
+              "b4": "Respecter les autres usagers"
+            }
+          },
+          "contenus": {
+            "kicker": "Contenus",
+            "title": "Contenus et données",
+            "lead": "Les contenus publiés sont protégés.",
+            "paragraphs": {
+              "p1": "Sauf mention contraire, les contenus sont réutilisables dans les conditions de la licence ouverte.",
+              "p2": "La réutilisation doit respecter l'intégrité des informations."
+            }
+          },
+          "responsabilite": {
+            "kicker": "Responsabilité",
+            "title": "Responsabilité",
+            "lead": "Le ministère met tout en œuvre pour assurer la fiabilité des informations.",
+            "paragraphs": {
+              "p1": "Les informations publiées sont fournies à titre indicatif.",
+              "p2": "Le ministère ne peut être tenu responsable d'un dommage résultant d'une mauvaise utilisation."
+            }
+          },
+          "liens": {
+            "kicker": "Liens",
+            "title": "Liens",
+            "lead": "Le portail peut renvoyer vers des ressources externes.",
+            "paragraphs": {
+              "p1": "Le ministère n'exerce pas de contrôle sur les contenus externes liés."
+            }
+          },
+          "modification": {
+            "kicker": "Évolution",
+            "title": "Modification des conditions",
+            "lead": "Les présentes conditions peuvent évoluer.",
+            "paragraphs": {
+              "p1": "Toute modification sera publiée sur cette page."
+            },
+            "notice": "La date de dernière mise à jour est indiquée en bas de page."
+          }
+        }
+      },
+      "cookies": {
+        "hero": {
+          "kicker": "Cookies",
+          "title": "Gestion des cookies",
+          "lead": "Le portail dépose des cookies de mesure d'audience.",
+          "notice": "Vous pouvez modifier vos choix à tout moment."
+        },
+        "sections": {
+          "definition": {
+            "kicker": "Définition",
+            "title": "Qu'est-ce qu'un cookie ?",
+            "lead": "Un cookie est un petit fichier déposé sur votre terminal.",
+            "paragraphs": {
+              "p1": "Les cookies nous aident à mesurer l'audience et à améliorer le service.",
+              "p2": "Ils ne permettent pas de vous identifier personnellement."
+            }
+          },
+          "cookiesDeposes": {
+            "kicker": "Cookies déposés",
+            "title": "Cookies déposés par le portail",
+            "lead": "La liste des cookies utilisés par le portail.",
+            "table": {
+              "caption": "Cookies déposés par le portail",
+              "headers": {
+                "0": "Nom",
+                "1": "Finalité",
+                "2": "Durée"
+              },
+              "rows": {
+                "0": {
+                  "0": "cookie-consent",
+                  "1": "Mémoriser votre choix",
+                  "2": "1 an"
+                },
+                "1": {
+                  "0": "matomo",
+                  "1": "Mesure d'audience",
+                  "2": "13 mois"
+                },
+                "2": {
+                  "0": "session",
+                  "1": "Maintien de session",
+                  "2": "Session"
+                },
+                "3": {
+                  "0": "preferences",
+                  "1": "Préférences d'affichage",
+                  "2": "1 an"
+                }
+              },
+              "note": "La mesure d'audience est réalisée sans recourir à des traceurs publicitaires."
+            }
+          },
+          "gestion": {
+            "kicker": "Gestion",
+            "title": "Gérer les cookies",
+            "lead": "Vous pouvez accepter ou refuser le dépôt des cookies.",
+            "bullets": {
+              "b1": "Paramétrer votre navigateur",
+              "b2": "Utiliser la bannière de consentement",
+              "b3": "Contacter le ministère"
+            },
+            "notice": "Le refus des cookies de mesure d'audience n'affecte pas votre navigation."
+          }
+        }
+      }
+    }
+  }
+}

@@ -40,19 +40,18 @@ function collectChildHrefs(section: NavigationSection): string[] {
 }
 
 /**
- * Government Header of the Registre National des Entreprises d'Astoria.
+ * Government Header of the Ministère de l'Éducation nationale d'Astoria.
  *
  * Main navigation — the permanent information architecture of the portal,
- * organised around the register journey rather than generic website
- * categories:
+ * organised around the school journey rather than generic website categories:
  *
- *   Entreprises              → agir      : rechercher, créer, modifier, cesser une activité
- *   Registre                 → consulter : les entreprises enregistrées, les établissements, les dirigeants, l'historique
- *   Formalités               → déclarer  : les formalités, de la création à la cessation
- *   Propriété intellectuelle → protéger  : les marques, les brevets, les dessins et modèles
- *   Documents                → obtenir   : les extraits, les certificats, les documents déposés, la vérification
- *   Données                  → exploiter : les données ouvertes, les statistiques, les API, les téléchargements
- *   RNEA                     → connaître : le registre, ses tarifs, l'aide et le contact
+ *   Scolarité           → parcourir : école, collège, lycée, enseignement supérieur
+ *   Orientation         → choisir   : parcours, formations, métiers, accompagnement
+ *   Enseignement        → exercer   : enseignants, personnels, carrières, ressources
+ *   Établissements      → trouver   : écoles, collèges, lycées, enseignement supérieur
+ *   Examens & diplômes  → valider   : examens, diplômes, certifications, résultats
+ *   Aides & services    → être aidé : élèves, parents, étudiants, démarches
+ *   Ministère           → connaître : actualités, politiques, publications, institution
  *
  * Each entry opens an institutional mega-menu (leader band with the entry
  * description and its main action, plus four section columns of four links).
@@ -68,9 +67,9 @@ function collectChildHrefs(section: NavigationSection): string[] {
  * (`StartDsfrOnHydration`): the same `primaryNavigation` data drives the
  * desktop mega-menus and the hierarchical mobile drawer, so `site-structure.ts`
  * is the single source of truth for both. The search button opens the header
- * search dialog, which targets the central company search of the register.
- * When the user is authenticated the “MyGouv” link is hidden and a custom
- * account menu (`UserAccountMenu`) is rendered instead.
+ * search dialog, which targets the global portal search. When the user is
+ * authenticated the “MyGouv” link is hidden and a custom account menu
+ * (`UserAccountMenu`) is rendered instead.
  */
 export function GovernmentHeader() {
   const t = useTranslations();
